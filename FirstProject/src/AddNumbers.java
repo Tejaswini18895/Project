@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 public class AddNumbers extends HttpServlet {
 	
 	@Override
-	//hello hie
+	//hello hie fry
 	public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		int num_one = Integer.parseInt(request.getParameter("num1"));
